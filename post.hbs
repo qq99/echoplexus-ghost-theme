@@ -31,12 +31,6 @@
             </div>
 
             <footer class="post-footer">
-                {{#if author.image}}
-                <figure class="author-image">
-                    <A class="img" href="{{@blog.url}}/author/{{author.slug}}" style="background-image: url({{author.image}})"><span class="hidden">{{author.name}}'s Picture</span></a>
-                </figure>
-                {{/if}}
-
                 <div class="share">
                     <h4>Share this post</h4>
                     <a class="fa fa-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
