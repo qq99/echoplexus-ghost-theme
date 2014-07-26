@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Unica One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Unica One'), local('UnicaOne-Regular'), url(../fonts/UnicaOne.woff) format('woff');
+}
+
+.site-footer {
+  text-align: center;
+  color: #999;
+}
+.site-footer span {
+  padding: 0 2em;
+}
+.hidden {
+  display: none;
+}
+a.fa {
+  text-decoration: none;
+  font-size: 2em;
+  margin-right: 1em;
+}
+nav.pagination {
+  margin-top: 3em;
+  text-align: right;
+}
+
+.single-post .post-header .post-title {
+  font-size:2.5em;
+}
