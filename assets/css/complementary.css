@@ -28,3 +28,6 @@ nav.pagination {
 .single-post .post-header .post-title {
   font-size:2.5em;
 }
+time {
+  color: #999;
+}
